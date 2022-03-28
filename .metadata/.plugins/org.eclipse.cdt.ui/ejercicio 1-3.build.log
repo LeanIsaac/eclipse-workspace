@@ -1,0 +1,6 @@
+23:14:08 **** Building Selected Files of configuration Debug for project ejercicio 1-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio 1-3.o" "..\\src\\ejercicio 1-3.c" 
+
+23:14:13 Build Finished. 0 errors, 0 warnings. (took 4s.540ms)
+
