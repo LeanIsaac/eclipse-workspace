@@ -32,7 +32,7 @@ int main(void) {
 	    int contadorNegativos = 0;
 	    int producto;
 
-
+	    //a. Cantidad de pares e impares.
 	    for( int i = 0; i < 10 ; i++){
 	        printf("Ingrese un número: ");
 	        scanf("%d", &nro);
@@ -50,7 +50,6 @@ int main(void) {
 	        	acumuladorNegativos += nro;
 			}
 
-	        //a. Cantidad de pares e impares.
 	        if(nro % 2 == 0){
 				contadorPares++;
 				//c. De los pares el mayor número ingresado.
@@ -68,10 +67,19 @@ int main(void) {
 	            menorNumero = nro;
 	            flag = 0;
 	        }
+	        /*
+	        if( flag == 1){
+	            menorNumero = nro;
+	            flag = 0;
+	        }
+	        else{
+	            if(nro<menorNumero){
+	                menorNumero = nro;
+	            }
+	        }
+	        */
+	        producto = acumuladorNegativos*contadorNegativos;
 	    }
-
-	    producto = acumuladorNegativos*contadorNegativos;
-
 	    //b. El menor número ingresado.
 	    printf("El menor número ingresado es: %d",menorNumero);
 	    //a. Cantidad de pares e impares.

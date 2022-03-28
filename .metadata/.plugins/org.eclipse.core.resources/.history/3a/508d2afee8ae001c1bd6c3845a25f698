@@ -32,7 +32,7 @@ int main(void) {
 	    int contadorNegativos = 0;
 	    int producto;
 
-
+	    //a. Cantidad de pares e impares.
 	    for( int i = 0; i < 10 ; i++){
 	        printf("Ingrese un número: ");
 	        scanf("%d", &nro);
@@ -50,7 +50,6 @@ int main(void) {
 	        	acumuladorNegativos += nro;
 			}
 
-	        //a. Cantidad de pares e impares.
 	        if(nro % 2 == 0){
 				contadorPares++;
 				//c. De los pares el mayor número ingresado.

@@ -27,30 +27,17 @@ int main(void) {
 	    int contadorPares = 0;
 	    int contadorImpares =0;
 	    int maxNumPar;
-	    int acumuladorPositivos = 0;
-	    int acumuladorNegativos =1;
-	    int contadorNegativos = 0;
-	    int producto;
 
-
+	    //a. Cantidad de pares e impares.
 	    for( int i = 0; i < 10 ; i++){
 	        printf("Ingrese un número: ");
 	        scanf("%d", &nro);
 
-	        while(nro == 0){
+	        while(nro <=0){
 	        	printf("Error, Ingrese otro número: ");
 	        	scanf("%d", &nro);
 	        }
-	        if(nro > 0){
-	        	acumuladorPositivos += nro;
-	        }
-	        else
-			{
-	        	contadorNegativos++;
-	        	acumuladorNegativos += nro;
-			}
 
-	        //a. Cantidad de pares e impares.
 	        if(nro % 2 == 0){
 				contadorPares++;
 				//c. De los pares el mayor número ingresado.
@@ -68,10 +55,19 @@ int main(void) {
 	            menorNumero = nro;
 	            flag = 0;
 	        }
+	        /*
+	        if( flag == 1){
+	            menorNumero = nro;
+	            flag = 0;
+	        }
+	        else{
+	            if(nro<menorNumero){
+	                menorNumero = nro;
+	            }
+	        }
+	        */
+
 	    }
-
-	    producto = acumuladorNegativos*contadorNegativos;
-
 	    //b. El menor número ingresado.
 	    printf("El menor número ingresado es: %d",menorNumero);
 	    //a. Cantidad de pares e impares.
@@ -79,10 +75,6 @@ int main(void) {
 	    printf("\nCantidad de impares encontrados: %d ", contadorImpares);
 	    //c. De los pares el mayor número ingresado.
 	    printf("\nEl número Par máximo es: %d ", maxNumPar);
-	    //d. Suma de los positivos.
-	    printf("\nLa cantidad De numeros Positivos es: %d ", acumuladorPositivos);
-	    //e. Producto de los negativos.
-	    printf("\nProducto De los Negativos es: %d ", producto);
 
 	    system ("pause");
 
