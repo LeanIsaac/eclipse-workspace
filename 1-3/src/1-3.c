@@ -26,19 +26,7 @@ int main(void) {
     printf("Ingrese el tercer número: ");
 	scanf("%d" , &nro3);
 
-    /*
-	if(numeroUno>numeroDos && numeroDos<numeroTres){
-        printf("el numero del medio es :%d", numeroDos);
-    }
-    else{
-        if(numeroUno<numeroDos && numeroDos < numeroTres){
-            printf("el número del medio es :%d", numeroUno);
-        }
-        else{
-            printf("el número del medio es :%d", numeroTres);
-        }
-    }
-    */
+
 	if(nro1 != nro2 && nro1 != nro3 && nro2 != nro3){
 		if((nro1 > nro2 && nro1 < nro3) || (nro1 < nro2 && nro1 > nro3)){
 			numeroDelMedio = nro1;
@@ -62,5 +50,17 @@ int main(void) {
 	return 0;
 }
 
-
+/*
+	if(numeroUno>numeroDos && numeroDos<numeroTres){
+        printf("el numero del medio es :%d", numeroDos);
+    }
+    else{
+        if(numeroUno<numeroDos && numeroDos < numeroTres){
+            printf("el número del medio es :%d", numeroUno);
+        }
+        else{
+            printf("el número del medio es :%d", numeroTres);
+        }
+    }
+    */
 

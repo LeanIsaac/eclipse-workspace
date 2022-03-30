@@ -1,16 +1,160 @@
-Info: Nothing to build for 1-3
-21:10:59 **** Incremental Build of configuration Debug for project 1-3 ****
+21:09:20 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:34:7: error: expected identifier or '(' before 's'
+  char 's', '';
+       ^~~
+..\src\2-3.c:34:12: error: empty character constant
+  char 's', '';
+            ^~
+..\src\2-3.c:39:9: error: expected expression before ')' token
+  }while();
+         ^
+..\src\2-3.c:33:6: warning: unused variable 'numeroDeCliente' [-Wunused-variable]
+  int numeroDeCliente;
+      ^~~~~~~~~~~~~~~
+21:09:50 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:34:7: error: expected identifier or '(' before 's'
+  char 's', '';
+       ^~~
+..\src\2-3.c:34:12: error: empty character constant
+  char 's', '';
+            ^~
+..\src\2-3.c:39:9: error: expected expression before ')' token
+  }while();
+         ^
+..\src\2-3.c:33:6: warning: unused variable 'numeroDeCliente' [-Wunused-variable]
+  int numeroDeCliente;
+      ^~~~~~~~~~~~~~~
+21:19:02 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:34:7: error: expected identifier or '(' before 's'
+  char 's', '';
+       ^~~
+..\src\2-3.c:34:12: error: empty character constant
+  char 's', '';
+            ^~
+..\src\2-3.c:39:9: error: expected expression before ')' token
+  }while();
+         ^
+..\src\2-3.c:33:6: warning: unused variable 'numeroDeCliente' [-Wunused-variable]
+  int numeroDeCliente;
+      ^~~~~~~~~~~~~~~
+21:19:35 **** Rebuild of configuration Debug for project 1-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\1-3.o" "..\\src\\1-3.c" 
 gcc -o 1-3.exe "src\\1-3.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 1-3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-21:17:38 **** Incremental Build of configuration Debug for project 1-3 ****
+Info: Nothing to build for 1-3
+Info: Nothing to build for 1-3
+21:20:37 **** Incremental Build of configuration Debug for project 2-3 ****
 Info: Internal Builder is used for build
-gcc -o 1-3.exe "src\\1-3.o" 
-Info: Nothing to build for 1-3
-Info: Nothing to build for 1-3
-Info: Nothing to build for 1-3
-21:19:18 **** Building Selected Files of configuration Debug for project 1-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:34:7: error: expected identifier or '(' before 's'
+  char 's', '';
+       ^~~
+..\src\2-3.c:34:12: error: empty character constant
+  char 's', '';
+            ^~
+..\src\2-3.c:39:9: error: expected expression before ')' token
+  }while();
+         ^
+..\src\2-3.c:33:6: warning: unused variable 'numeroDeCliente' [-Wunused-variable]
+  int numeroDeCliente;
+      ^~~~~~~~~~~~~~~
+21:21:28 **** Building Selected Files of configuration Debug for project 2-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\1-3.o" "..\\src\\1-3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:34:7: error: expected identifier or '(' before 's'
+  char 's', '';
+       ^~~
+..\src\2-3.c:34:12: error: empty character constant
+  char 's', '';
+            ^~
+..\src\2-3.c:39:9: error: expected expression before ')' token
+  }while();
+         ^
+..\src\2-3.c:33:6: warning: unused variable 'numeroDeCliente' [-Wunused-variable]
+  int numeroDeCliente;
+      ^~~~~~~~~~~~~~~
+Info: Nothing to build for 1-3
+21:22:04 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:34:7: error: expected identifier or '(' before 's'
+  char 's', '';
+       ^~~
+..\src\2-3.c:34:12: error: empty character constant
+  char 's', '';
+            ^~
+..\src\2-3.c:39:9: error: expected expression before ')' token
+  }while();
+         ^
+..\src\2-3.c:33:6: warning: unused variable 'numeroDeCliente' [-Wunused-variable]
+  int numeroDeCliente;
+      ^~~~~~~~~~~~~~~
+21:22:32 **** Building Selected Files of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:34:7: error: expected identifier or '(' before 's'
+  char 's', '';
+       ^~~
+..\src\2-3.c:34:12: error: empty character constant
+  char 's', '';
+            ^~
+..\src\2-3.c:39:9: error: expected expression before ')' token
+  }while();
+         ^
+..\src\2-3.c:33:6: warning: unused variable 'numeroDeCliente' [-Wunused-variable]
+  int numeroDeCliente;
+      ^~~~~~~~~~~~~~~
+21:24:11 **** Building Selected Files of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:34:7: error: expected identifier or '(' before 's'
+  char 's', '';
+       ^~~
+..\src\2-3.c:34:12: error: empty character constant
+  char 's', '';
+            ^~
+..\src\2-3.c:39:9: error: expected expression before ')' token
+  }while();
+         ^
+..\src\2-3.c:33:6: warning: unused variable 'numeroDeCliente' [-Wunused-variable]
+  int numeroDeCliente;
+      ^~~~~~~~~~~~~~~
+21:25:17 **** Building Selected Files of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:34:7: error: expected identifier or '(' before 's'
+  char 's', '';
+       ^~~
+..\src\2-3.c:34:12: error: empty character constant
+  char 's', '';
+            ^~
+..\src\2-3.c:39:9: error: expected expression before ')' token
+  }while();
+         ^
+..\src\2-3.c:33:6: warning: unused variable 'numeroDeCliente' [-Wunused-variable]
+  int numeroDeCliente;
+      ^~~~~~~~~~~~~~~
+13:56:36 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+gcc -o 2-3.exe "src\\2-3.o" 
+13:57:17 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+gcc -o 2-3.exe "src\\2-3.o" 
+Info: Nothing to build for 2-3
