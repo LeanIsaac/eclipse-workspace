@@ -45,11 +45,13 @@ int main() {
 	int acumuladorPrecios =0;
 	int precio = 600;
 
-	int PasajerosMayores60 = 0;
+	int pasajerosMayores60 = 0;
 	int pasajeros = 0;
-//	int porcentajePasajerosM;
-//	int descuento = 0;
-//	int precioSinDescuento = 0;
+	int descuento =0;
+	int porcentajePasajerosMayores;
+	int precioParcial = 0;
+	//int antiBug;
+
 
 
 
@@ -103,20 +105,18 @@ int main() {
 			if(estadoCivil == 'v'){
 				contadorAncianos++;
 			}
-			PasajerosMayores60++; //c)
+			pasajerosMayores60++; //c)
     	}
-    	/*
-    	porcentajePasajerosM = PasajerosMayores60 * 100 /pasajeros;
+    		porcentajePasajerosMayores = pasajerosMayores60 * 100/pasajeros;
+    		//d)
+    		if(porcentajePasajerosMayores > 50 ){
+    			descuento = 25;
+    		}
+    		else{
+    			descuento = 0;
+    		}
 
-    	if(porcentajePasajerosM > 50){
-    		descuento = 25;
-    	}
-    	else{
-    		descuento = 0;
-    	}
-
-    	precioSinDescuento = acumuladorPrecios - (acumuladorPrecios / 100);
-    	*/
+    		precioParcial = acumuladorPrecios - (acumuladorPrecios * descuento / 100);
 
     	//b) el n�mero de cliente y edad de la mujer soltera mas joven.
     	if(genero == 'f'){
@@ -129,6 +129,7 @@ int main() {
 
 	    printf("quiere seguir :");
 	    setbuf(stdin, NULL);
+	    //while((antiBug = getchar()) != '\n' && antiBug != EOF);
 	    scanf("%c",&respuesta);
 	}while(respuesta != 'n');
 
@@ -145,6 +146,11 @@ int main() {
 
 	//c) cu�nto sale el viaje total sin descuento.
 	printf("\nPrecio del viaje en total es de $%d ",acumuladorPrecios);
+
+	//d) si hay mas del 50% de los pasajeros que tiene mas de 60 años , el precio final tiene un descuento del 25%, que solo mostramos si corresponde.
+	if(descuento != 0){
+		printf("\nEl Precio final con descuento es de $%d ",precioParcial);
+	}
 
 	return 0;
 }

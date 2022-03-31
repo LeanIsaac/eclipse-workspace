@@ -154,3 +154,43 @@ collect2.exe: error: ld returned 1 exit status
 01:52:57 **** Incremental Build of configuration Debug for project 2-3 ****
 Info: Internal Builder is used for build
 gcc -o 2-3.exe "src\\2-3.o" 
+Info: Nothing to build for 2-3
+18:57:12 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+gcc -o 2-3.exe "src\\2-3.o" 
+19:48:34 **** Building Selected Files of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+19:48:46 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:52:6: warning: variable 'precioParcial' set but not used [-Wunused-but-set-variable]
+  int precioParcial =0;
+      ^~~~~~~~~~~~~
+gcc -o 2-3.exe "src\\2-3.o" 
+19:52:02 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+..\src\2-3.c: In function 'main':
+..\src\2-3.c:52:6: warning: variable 'precioParcial' set but not used [-Wunused-but-set-variable]
+  int precioParcial;
+      ^~~~~~~~~~~~~
+gcc -o 2-3.exe "src\\2-3.o" 
+Info: Nothing to build for 2-3
+Info: Nothing to build for 2-3
+Info: Nothing to build for 2-3
+20:06:29 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+gcc -o 2-3.exe "src\\2-3.o" 
+Info: Nothing to build for 2-3
+20:09:22 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+gcc -o 2-3.exe "src\\2-3.o" 
+20:23:50 **** Incremental Build of configuration Debug for project 2-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
+gcc -o 2-3.exe "src\\2-3.o" 
