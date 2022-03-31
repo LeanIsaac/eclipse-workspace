@@ -32,7 +32,7 @@ int main() {
  setbuf(stdout,NULL);
 
 	int numeroDeCliente;
-	char EstadoCivil;
+	char estadoCivil;
 	int edad;
 	int temperatura;
 	char genero;
@@ -59,12 +59,12 @@ int main() {
 
     	printf("Ingrese su estado civil [s]oltero, [c]asado, [v]iudo :");
     	setbuf(stdin, NULL);
-    	scanf("%c", &EstadoCivil);
+    	scanf("%c", &estadoCivil);
 
-        while(EstadoCivil != 's' && EstadoCivil != 'c' && EstadoCivil != 'v'){
+        while(estadoCivil != 's' && estadoCivil != 'c' && estadoCivil != 'v'){
             printf("Vuelva a Ingresar: [s]oltero, [c]asado, [v]iudo :");
             setbuf(stdin, NULL);
-            scanf("%c", &EstadoCivil);
+            scanf("%c", &estadoCivil);
         }
 
     	printf("Ingrese su edad :");
@@ -91,7 +91,7 @@ int main() {
     	}
 
     	//a) La cantidad de personas con estado "viudo" de más de 60 años.
-    	if(EstadoCivil == 'v' && edad > 60){
+    	if(estadoCivil == 'v' && edad > 60){
     	    contadorAncianos++;
     	}
 

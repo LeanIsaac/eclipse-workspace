@@ -43,7 +43,5 @@ int main(){
             printf("numero mayor %d", numero3);
         }
     }
-    system("pause");
-
     return 0;
 }

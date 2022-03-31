@@ -28,9 +28,7 @@ int main(void) {
 	    int contadorImpares =0;
 	    int maxNumPar;
 	    int acumuladorPositivos = 0;
-	    int acumuladorNegativos =1;
-	    int contadorNegativos = 0;
-	    int producto;
+	    int producto = 1;
 
 
 	    for( int i = 0; i < 10 ; i++){
@@ -46,8 +44,7 @@ int main(void) {
 	        }
 	        else
 			{
-	        	contadorNegativos++;
-	        	acumuladorNegativos += nro;
+	        	producto = producto*nro;
 			}
 
 	        //a. Cantidad de pares e impares.
@@ -70,7 +67,6 @@ int main(void) {
 	        }
 	    }
 
-	    producto = acumuladorNegativos*contadorNegativos;
 
 	    //b. El menor número ingresado.
 	    printf("El menor número ingresado es: %d",menorNumero);
@@ -83,8 +79,6 @@ int main(void) {
 	    printf("\nLa cantidad De numeros Positivos es: %d ", acumuladorPositivos);
 	    //e. Producto de los negativos.
 	    printf("\nProducto De los Negativos es: %d ", producto);
-
-	    system ("pause");
 
 	    return 0;
 }
