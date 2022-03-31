@@ -9,18 +9,18 @@
  Ejercicio 2-3:
 Debemos alquilar el servicio de transporte para llegar a Mar del Plata con un grupo de personas, de cada persona
 debemos obtener los siguientes datos:
-número de cliente,
+nï¿½mero de cliente,
 estado civil ('s' para soltero", 'c' para casado o 'v' viudo),
 
-edad( solo mayores de edad, más de 17),
+edad( solo mayores de edad, mï¿½s de 17),
 temperatura corporal (validar por favor)
 y genero('f' para femenino, 'm' para masculino, 'o' para no binario).
 NOTA: El precio por pasajero es de $600.
 Se debe informar (solo si corresponde):
-a) La cantidad de personas con estado "viudo" de más de 60 años.
-b) el número de cliente y edad de la mujer soltera más joven.
-c) cuánto sale el viaje total sin descuento.
-d) si hay más del 50% de los pasajeros que tiene más de 60 años , el precio final tiene un descuento del 25%, que
+a) La cantidad de personas con estado "viudo" de mï¿½s de 60 aï¿½os.
+b) el nï¿½mero de cliente y edad de la mujer soltera mï¿½s joven.
+c) cuï¿½nto sale el viaje total sin descuento.
+d) si hay mas del 50% de los pasajeros que tiene mas de 60 aÃ±os , el precio final tiene un descuento del 25%, que
 solo mostramos si corresponde.
  */
 
@@ -45,15 +45,23 @@ int main() {
 	int acumuladorPrecios =0;
 	int precio = 600;
 
+	int PasajerosMayores60 = 0;
+	int pasajeros = 0;
+//	int porcentajePasajerosM;
+//	int descuento = 0;
+//	int precioSinDescuento = 0;
+
+
 
 	do{
 
-	    printf("Ingrese el número de cliente :");
+	    printf("Ingrese el nÃºmero de cliente :");
     	scanf("%d", &numeroDeCliente);
     	while(numeroDeCliente <0){
-    	    printf("Ingrese el número de cliente :");
+    	    printf("Ingrese el nï¿½mero de cliente :");
     	    scanf("%d", &numeroDeCliente);
     	}
+    	pasajeros++;
 
     	acumuladorPrecios += precio;
 
@@ -81,21 +89,36 @@ int main() {
             scanf("%d",&temperatura);
         }
 
-        printf("Ingrese el género [f]emenino, [m]asculino, [n]o binario :");
+        printf("Ingrese el gï¿½nero [f]emenino, [m]asculino, [n]o binario :");
         setbuf(stdin, NULL);
         scanf("%c", &genero);
     	while(genero != 'f' && genero != 'm' && genero != 'n'){
-    	    printf("Vuelva a Ingresar el género [f]emenino, [m]asculino, [n]o binario :");
+    	    printf("Vuelva a Ingresar el gï¿½nero [f]emenino, [m]asculino, [n]o binario :");
             setbuf(stdin, NULL);
             scanf("%c", &genero);
     	}
 
-    	//a) La cantidad de personas con estado "viudo" de más de 60 años.
-    	if(estadoCivil == 'v' && edad > 60){
-    	    contadorAncianos++;
+    	//a) La cantidad de personas con estado "viudo" de mas de 60 aï¿½os.
+    	if(edad > 60){
+			if(estadoCivil == 'v'){
+				contadorAncianos++;
+			}
+			PasajerosMayores60++; //c)
+    	}
+    	/*
+    	porcentajePasajerosM = PasajerosMayores60 * 100 /pasajeros;
+
+    	if(porcentajePasajerosM > 50){
+    		descuento = 25;
+    	}
+    	else{
+    		descuento = 0;
     	}
 
-    	//b) el número de cliente y edad de la mujer soltera más joven.
+    	precioSinDescuento = acumuladorPrecios - (acumuladorPrecios / 100);
+    	*/
+
+    	//b) el nï¿½mero de cliente y edad de la mujer soltera mas joven.
     	if(genero == 'f'){
     	    if(edad < solteraMasJoven || flag == 1){
     	        solteraMasJoven = edad;
@@ -109,17 +132,18 @@ int main() {
 	    scanf("%c",&respuesta);
 	}while(respuesta != 'n');
 
-	//a) La cantidad de personas con estado "viudo" de más de 60 años.
+
+	//a) La cantidad de personas con estado "viudo" de mï¿½s de 60 aï¿½os.
 	if(contadorAncianos > 0){
-	    printf("\nLa cantidad de personas Viudas con más de 60 años son %d",contadorAncianos);
+	    printf("\nLa cantidad de personas Viudas con mï¿½s de 60 aï¿½os son %d",contadorAncianos);
 	}
 
-	//b) el número de cliente y edad de la mujer soltera más joven.
+	//b) el nï¿½mero de cliente y edad de la mujer soltera mï¿½s joven.
 	if(solteraMasJoven > 0){
-	    printf("\nEl número de cliente, de la soltera mas joven es :%d y su edad %d",numClienteSMasJoven, solteraMasJoven);
+	    printf("\nEl nï¿½mero de cliente, de la soltera mas joven es :%d y su edad %d",numClienteSMasJoven, solteraMasJoven);
 	}
 
-	//c) cuánto sale el viaje total sin descuento.
+	//c) cuï¿½nto sale el viaje total sin descuento.
 	printf("\nPrecio del viaje en total es de $%d ",acumuladorPrecios);
 
 	return 0;
