@@ -1,196 +1,114 @@
-Info: Nothing to build for 2-4
-Info: Nothing to build for 2-4
-Info: Nothing to build for 2-4
-23:14:08 **** Rebuild of configuration Debug for project 1-2 ****
+00:21:10 **** Rebuild of configuration Debug for project 3-0 Funciones ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\1-2.o" "..\\src\\1-2.c" 
-..\src\1-2.c: In function 'main':
-..\src\1-2.c:46:5: warning: implicit declaration of function 'system' [-Wimplicit-function-declaration]
-     system("pause");
-     ^~~~~~
-gcc -o 1-2.exe "src\\1-2.o" 
-23:14:22 **** Incremental Build of configuration Debug for project 1-2 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-1 Funciones.o" "..\\src\\3-1 Funciones.c" 
+..\src\3-1 Funciones.c:50:10: warning: return type of 'main' is not 'int' [-Wmain]
+     void main (void){
+          ^~~~
+gcc -o "3-0 Funciones.exe" "src\\3-1 Funciones.o" 
+Info: Nothing to build for 3-0 Funciones
+00:22:15 **** Incremental Build of configuration Debug for project 3-0 Funciones ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\1-2.o" "..\\src\\1-2.c" 
-gcc -o 1-2.exe "src\\1-2.o" 
-Info: Nothing to build for 2-4
-23:14:56 **** Incremental Build of configuration Debug for project 2-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-4.o" "..\\src\\2-4.c" 
-gcc -o 2-4.exe "src\\2-4.o" 
-23:53:29 **** Rebuild of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-gcc -o 2-2.exe "src\\2-2.o" 
-23:54:21 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-gcc -o 2-2.exe "src\\2-2.o" 
-23:57:29 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-gcc -o 2-2.exe "src\\2-2.o" 
-Info: Nothing to build for 2-2
-23:59:05 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-..\src\2-2.c: In function 'main':
-..\src\2-2.c:47:11: error: 'contadorNegativos' undeclared (first use in this function)
-           contadorNegativos++;
-           ^~~~~~~~~~~~~~~~~
-..\src\2-2.c:47:11: note: each undeclared identifier is reported only once for each function it appears in
-..\src\2-2.c:48:11: error: 'acumuladorNegativos' undeclared (first use in this function)
-           acumuladorNegativos += nro;
-           ^~~~~~~~~~~~~~~~~~~
-23:59:08 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-..\src\2-2.c: In function 'main':
-..\src\2-2.c:47:11: error: 'contadorNegativos' undeclared (first use in this function)
-           contadorNegativos++;
-           ^~~~~~~~~~~~~~~~~
-..\src\2-2.c:47:11: note: each undeclared identifier is reported only once for each function it appears in
-..\src\2-2.c:48:11: error: 'acumuladorNegativos' undeclared (first use in this function)
-           acumuladorNegativos += nro;
-           ^~~~~~~~~~~~~~~~~~~
-23:59:11 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-..\src\2-2.c: In function 'main':
-..\src\2-2.c:47:11: error: 'contadorNegativos' undeclared (first use in this function)
-           contadorNegativos++;
-           ^~~~~~~~~~~~~~~~~
-..\src\2-2.c:47:11: note: each undeclared identifier is reported only once for each function it appears in
-..\src\2-2.c:48:11: error: 'acumuladorNegativos' undeclared (first use in this function)
-           acumuladorNegativos += nro;
-           ^~~~~~~~~~~~~~~~~~~
-23:59:19 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-..\src\2-2.c: In function 'main':
-..\src\2-2.c:47:11: error: 'contadorNegativos' undeclared (first use in this function)
-           contadorNegativos++;
-           ^~~~~~~~~~~~~~~~~
-..\src\2-2.c:47:11: note: each undeclared identifier is reported only once for each function it appears in
-..\src\2-2.c:48:11: error: 'acumuladorNegativos' undeclared (first use in this function)
-           acumuladorNegativos += nro;
-           ^~~~~~~~~~~~~~~~~~~
-00:00:13 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-..\src\2-2.c: In function 'main':
-..\src\2-2.c:47:11: error: 'contadorNegativos' undeclared (first use in this function)
-           contadorNegativos++;
-           ^~~~~~~~~~~~~~~~~
-..\src\2-2.c:47:11: note: each undeclared identifier is reported only once for each function it appears in
-..\src\2-2.c:48:11: error: 'acumuladorNegativos' undeclared (first use in this function)
-           acumuladorNegativos += nro;
-           ^~~~~~~~~~~~~~~~~~~
-00:05:26 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-..\src\2-2.c: In function 'main':
-..\src\2-2.c:47:11: error: 'contadorNegativos' undeclared (first use in this function)
-           contadorNegativos++;
-           ^~~~~~~~~~~~~~~~~
-..\src\2-2.c:47:11: note: each undeclared identifier is reported only once for each function it appears in
-..\src\2-2.c:48:11: error: 'acumuladorNegativos' undeclared (first use in this function)
-           acumuladorNegativos += nro;
-           ^~~~~~~~~~~~~~~~~~~
-00:05:39 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-..\src\2-2.c: In function 'main':
-..\src\2-2.c:47:11: error: 'contadorNegativos' undeclared (first use in this function)
-           contadorNegativos++;
-           ^~~~~~~~~~~~~~~~~
-..\src\2-2.c:47:11: note: each undeclared identifier is reported only once for each function it appears in
-..\src\2-2.c:48:11: error: 'acumuladorNegativos' undeclared (first use in this function)
-           acumuladorNegativos += nro;
-           ^~~~~~~~~~~~~~~~~~~
-00:07:05 **** Incremental Build of configuration Debug for project 2-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-2.o" "..\\src\\2-2.c" 
-gcc -o 2-2.exe "src\\2-2.o" 
-Info: Nothing to build for 2-2
-Info: Nothing to build for 2-4
-Info: Nothing to build for 2-3
-Info: Nothing to build for 2-3
-Info: Nothing to build for 2-3
-01:21:40 **** Incremental Build of configuration Debug for project 2-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-gcc -o 2-3.exe "src\\2-3.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 2-3.exe: Permission denied
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-1 Funciones.o" "..\\src\\3-1 Funciones.c" 
+..\src\3-1 Funciones.c:50:10: warning: return type of 'main' is not 'int' [-Wmain]
+     void main (void){
+          ^~~~
+gcc -o "3-0 Funciones.exe" "src\\3-1 Funciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 3-0 Funciones.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-01:22:01 **** Incremental Build of configuration Debug for project 2-3 ****
+00:22:20 **** Incremental Build of configuration Debug for project 3-0 Funciones ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-..\src\2-3.c: In function 'main':
-..\src\2-3.c:49:6: warning: unused variable 'descuento' [-Wunused-variable]
-  int descuento = 0;
-      ^~~~~~~~~
-gcc -o 2-3.exe "src\\2-3.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 2-3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-01:24:10 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -o "3-0 Funciones.exe" "src\\3-1 Funciones.o" 
+00:29:10 **** Rebuild of configuration Debug for project 3-1 ****
 Info: Internal Builder is used for build
-gcc -o 2-3.exe "src\\2-3.o" 
-01:29:21 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-1.o" "..\\src\\3-1.c" 
+..\src\3-1.c:13:7: warning: return type of 'main' is not 'int' [-Wmain]
+ float main(){
+       ^~~~
+..\src\3-1.c: In function 'main':
+..\src\3-1.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o 3-1.exe "src\\3-1.o" 
+Info: Nothing to build for 3-1
+00:30:13 **** Incremental Build of configuration Debug for project 3-1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-gcc -o 2-3.exe "src\\2-3.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 2-3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-01:29:28 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-1.o" "..\\src\\3-1.c" 
+..\src\3-1.c:13:7: warning: return type of 'main' is not 'int' [-Wmain]
+ float main(){
+       ^~~~
+..\src\3-1.c: In function 'main':
+..\src\3-1.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o 3-1.exe "src\\3-1.o" 
+00:34:37 **** Rebuild of configuration Debug for project 3-2 ****
 Info: Internal Builder is used for build
-gcc -o 2-3.exe "src\\2-3.o" 
-01:52:50 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
+gcc -o 3-2.exe "src\\3-2.o" 
+00:34:48 **** Incremental Build of configuration Debug for project 3-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-gcc -o 2-3.exe "src\\2-3.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 2-3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-01:52:57 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
+gcc -o 3-2.exe "src\\3-2.o" 
+Info: Nothing to build for 3-2
+00:37:32 **** Rebuild of configuration Debug for project 3-3 ****
 Info: Internal Builder is used for build
-gcc -o 2-3.exe "src\\2-3.o" 
-Info: Nothing to build for 2-3
-18:57:12 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-3.o" "..\\src\\3-3.c" 
+gcc -o 3-3.exe "src\\3-3.o" 
+00:37:42 **** Incremental Build of configuration Debug for project 3-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-gcc -o 2-3.exe "src\\2-3.o" 
-19:48:34 **** Building Selected Files of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-3.o" "..\\src\\3-3.c" 
+..\src\3-3.c: In function 'entero':
+..\src\3-3.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\3-3.c: In function 'main':
+..\src\3-3.c:16:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
+     entero(num);
+     ^~~~~~~~~~~
+gcc -o 3-3.exe "src\\3-3.o" 
+00:40:49 **** Rebuild of configuration Debug for project 3-4 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-19:48:46 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
+gcc -o 3-4.exe "src\\3-4.o" 
+00:40:57 **** Incremental Build of configuration Debug for project 3-4 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-..\src\2-3.c: In function 'main':
-..\src\2-3.c:52:6: warning: variable 'precioParcial' set but not used [-Wunused-but-set-variable]
-  int precioParcial =0;
-      ^~~~~~~~~~~~~
-gcc -o 2-3.exe "src\\2-3.o" 
-19:52:02 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
+..\src\3-4.c: In function 'entero':
+..\src\3-4.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\3-4.c: In function 'main':
+..\src\3-4.c:18:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
+     entero(num);
+     ^~~~~~~~~~~
+gcc -o 3-4.exe "src\\3-4.o" 
+Info: Nothing to build for 3-4
+Info: Nothing to build for 3-4
+00:42:40 **** Incremental Build of configuration Debug for project 3-4 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-..\src\2-3.c: In function 'main':
-..\src\2-3.c:52:6: warning: variable 'precioParcial' set but not used [-Wunused-but-set-variable]
-  int precioParcial;
-      ^~~~~~~~~~~~~
-gcc -o 2-3.exe "src\\2-3.o" 
-Info: Nothing to build for 2-3
-Info: Nothing to build for 2-3
-Info: Nothing to build for 2-3
-20:06:29 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
+..\src\3-4.c: In function 'entero':
+..\src\3-4.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\3-4.c: In function 'main':
+..\src\3-4.c:18:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
+     entero(num);
+     ^~~~~~~~~~~
+gcc -o 3-4.exe "src\\3-4.o" 
+00:44:32 **** Incremental Build of configuration Debug for project 3-0 Funciones ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-gcc -o 2-3.exe "src\\2-3.o" 
-Info: Nothing to build for 2-3
-20:09:22 **** Incremental Build of configuration Debug for project 2-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-0 Funciones.o" "..\\src\\3-0 Funciones.c" 
+..\src\3-0 Funciones.c:50:10: warning: return type of 'main' is not 'int' [-Wmain]
+     void main (void){
+          ^~~~
+gcc -o "3-0 Funciones.exe" "src\\3-0 Funciones.o" 
+00:44:42 **** Incremental Build of configuration Debug for project 3-0 Funciones ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-gcc -o 2-3.exe "src\\2-3.o" 
-20:23:50 **** Incremental Build of configuration Debug for project 2-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2-3.o" "..\\src\\2-3.c" 
-gcc -o 2-3.exe "src\\2-3.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-0 Funciones.o" "..\\src\\3-0 Funciones.c" 
+..\src\3-0 Funciones.c:54:10: warning: return type of 'main' is not 'int' [-Wmain]
+     void main (void){
+          ^~~~
+gcc -o "3-0 Funciones.exe" "src\\3-0 Funciones.o" 
+Info: Nothing to build for 3-4
+Info: Nothing to build for 3-4
