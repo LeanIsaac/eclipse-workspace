@@ -201,3 +201,22 @@ gcc -o 3-2.exe "src\\3-2.o" "src\\par.o"
 Info: Nothing to build for 3-2
 Info: Nothing to build for 3-2
 Info: Nothing to build for 3-2
+Info: Nothing to build for 3-5
+20:25:22 **** Incremental Build of configuration Debug for project 3-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-5.o" "..\\src\\3-5.c" 
+..\src\3-5.c: In function 'sumar2':
+..\src\3-5.c:48:11: warning: 'valA' is used uninitialized in this function [-Wuninitialized]
+      valC = valA + valB;
+      ~~~~~^~~~~~~~~~~~~
+..\src\3-5.c:48:11: warning: 'valB' is used uninitialized in this function [-Wuninitialized]
+..\src\3-5.c: In function 'main':
+..\src\3-5.c:33:9: warning: 'z' is used uninitialized in this function [-Wuninitialized]
+         printf("la suma es %d",z);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o 3-5.exe "src\\3-5.o" 
+20:26:40 **** Incremental Build of configuration Debug for project 3-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-5.o" "..\\src\\3-5.c" 
+gcc -o 3-5.exe "src\\3-5.o" 
+Info: Nothing to build for 3-5
