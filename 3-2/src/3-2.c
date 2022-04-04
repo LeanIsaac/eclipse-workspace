@@ -7,9 +7,10 @@
 ╚═════════════════════════════════════════════════════════════════════════════════════════════════════╝
 */
 #include <stdio.h>
+#include "par.h" //mi biclioteca
 
     //prototipo
-    void par(int);
+	//ya lo agrege a mi biclioteca
 
 
     //llamada
@@ -25,15 +26,6 @@
     }
 
     //cuerpo de la funcion
-    void par(int a){
-        if(a %2==0){
-            printf("PAR [1] - IMPAR [0] :");
-           printf("1");
-        }
-        else{
-            printf("PAR [1] - IMPAR [0] :");
-            printf("0");
-        }
-    }
+    //en la mi biblioteca
 
 

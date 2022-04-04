@@ -112,3 +112,85 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-0 Funciones.o" "..\\src\\3-0 
 gcc -o "3-0 Funciones.exe" "src\\3-0 Funciones.o" 
 Info: Nothing to build for 3-4
 Info: Nothing to build for 3-4
+14:37:35 **** Incremental Build of configuration Debug for project 3-4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
+..\src\3-4.c: In function 'entero':
+..\src\3-4.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\3-4.c:26:7: warning: 'num' is used uninitialized in this function [-Wuninitialized]
+     if(num <10 || num >20){
+       ^
+gcc -o 3-4.exe "src\\3-4.o" 
+Info: Nothing to build for 3-4
+Info: Nothing to build for 3-4
+14:48:00 **** Incremental Build of configuration Debug for project 3-4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
+..\src\3-4.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o 3-4.exe "src\\3-4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 3-4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:48:17 **** Incremental Build of configuration Debug for project 3-4 ****
+Info: Internal Builder is used for build
+gcc -o 3-4.exe "src\\3-4.o" 
+14:48:45 **** Incremental Build of configuration Debug for project 3-4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
+..\src\3-4.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o 3-4.exe "src\\3-4.o" 
+14:49:28 **** Incremental Build of configuration Debug for project 3-4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
+..\src\3-4.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o 3-4.exe "src\\3-4.o" 
+Info: Nothing to build for 3-4
+14:50:27 **** Rebuild of configuration Debug for project 3-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-5.o" "..\\src\\3-5.c" 
+gcc -o 3-5.exe "src\\3-5.o" 
+14:50:43 **** Incremental Build of configuration Debug for project 3-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-5.o" "..\\src\\3-5.c" 
+gcc -o 3-5.exe "src\\3-5.o" 
+Info: Nothing to build for 3-5
+Info: Nothing to build for 3-3
+15:14:19 **** Incremental Build of configuration Debug for project 3-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-3.o" "..\\src\\3-3.c" 
+..\src\3-3.c: In function 'main':
+..\src\3-3.c:16:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
+     entero(num);
+     ^~~~~~~~~~~
+gcc -o 3-3.exe "src\\3-3.o" 
+Info: Nothing to build for 3-3
+15:35:56 **** Building Selected Files of configuration Debug for project 3-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
+15:59:15 **** Incremental Build of configuration Debug for project 3-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\par.o" "..\\src\\par.c" 
+..\src\par.c:8:18: fatal error: stdlib: No such file or directory
+ #include <stdlib>
+                  ^
+compilation terminated.
+15:59:27 **** Incremental Build of configuration Debug for project 3-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\par.o" "..\\src\\par.c" 
+..\src\par.c:8:18: fatal error: stdlib: No such file or directory
+ #include <stdlib>
+                  ^
+compilation terminated.
+16:04:14 **** Incremental Build of configuration Debug for project 3-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\par.o" "..\\src\\par.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
+gcc -o 3-2.exe "src\\3-2.o" "src\\par.o" 

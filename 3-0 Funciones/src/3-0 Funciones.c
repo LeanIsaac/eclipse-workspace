@@ -45,13 +45,10 @@ int sumar(int, int){ //declara variables de tipo entero
     #include <stdio.h>
     #include <stdlib.h>
 
-	void cyan(){
-    printf("\033[0;36m");
-	}
 
     int suma(int a, int b);
 
-    void main (void){
+   int main(void){
     	setbuf(stdout,NULL);
 
         int x,y,z; //variables locales
@@ -61,7 +58,6 @@ int sumar(int, int){ //declara variables de tipo entero
         printf("ingrese numero a sumar :");
         scanf("%d", &y);
         z = suma (x,y); //se detiene y llama la funcion suma.
-        cyan();
         printf("la suma es %d",z);
     }
 

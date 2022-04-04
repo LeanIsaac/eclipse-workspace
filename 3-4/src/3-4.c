@@ -10,22 +10,22 @@
 #include <stdio.h>
 
 //prototipo
-int entero(int);
+void entero(int);
 
-int main(){
+int	main(){
     setbuf(stdout,NULL);
     int num;
+    printf("Ingrese un entero entre 10 y 20:");
+    scanf("%d",&num);
     entero(num);
 }
 
 //cuerpo de la función
-int entero(int a){
-    int num;
-    printf("Ingrese un entero entre 10 y 20:");
-    scanf("%d",&num);
-    if(num <10 || num >20){
+void entero(int a){
+    if(a <10 || a >20){
         printf("Ese numero no esta dentro del rango estimado ");
-    }else{
-        printf("Retorno :%d",num);
+    }
+    else{
+        printf("Retorno :%d",a);
     }
 }

@@ -18,8 +18,8 @@ int main(){
 
 //cuerpo de la función
 int entero(int a){
-    int num;
     printf("Ingrese un entero :");
-    scanf("%d",&num);
-    printf("Retorno :%d",num);
+    scanf("%d",&a);
+    printf("Retorno :%d",a);
+    return a;
 }
