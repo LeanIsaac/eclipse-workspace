@@ -1,222 +1,28 @@
-00:21:10 **** Rebuild of configuration Debug for project 3-0 Funciones ****
+16:36:57 **** Incremental Build of configuration Debug for project array ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-1 Funciones.o" "..\\src\\3-1 Funciones.c" 
-..\src\3-1 Funciones.c:50:10: warning: return type of 'main' is not 'int' [-Wmain]
-     void main (void){
-          ^~~~
-gcc -o "3-0 Funciones.exe" "src\\3-1 Funciones.o" 
-Info: Nothing to build for 3-0 Funciones
-00:22:15 **** Incremental Build of configuration Debug for project 3-0 Funciones ****
+gcc -o array.exe "src\\array.o" 
+Info: Nothing to build for array
+Info: Nothing to build for array
+16:38:46 **** Incremental Build of configuration Debug for project array ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-1 Funciones.o" "..\\src\\3-1 Funciones.c" 
-..\src\3-1 Funciones.c:50:10: warning: return type of 'main' is not 'int' [-Wmain]
-     void main (void){
-          ^~~~
-gcc -o "3-0 Funciones.exe" "src\\3-1 Funciones.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 3-0 Funciones.exe: Permission denied
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+..\src\array.c: In function 'main':
+..\src\array.c:48:17: warning: unused variable 'pos' [-Wunused-variable]
+  int vec[CANT], pos, i;
+                 ^~~
+gcc -o array.exe "src\\array.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file array.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-00:22:20 **** Incremental Build of configuration Debug for project 3-0 Funciones ****
+16:38:50 **** Incremental Build of configuration Debug for project array ****
 Info: Internal Builder is used for build
-gcc -o "3-0 Funciones.exe" "src\\3-1 Funciones.o" 
-00:29:10 **** Rebuild of configuration Debug for project 3-1 ****
+gcc -o array.exe "src\\array.o" 
+16:41:37 **** Incremental Build of configuration Debug for project array ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-1.o" "..\\src\\3-1.c" 
-..\src\3-1.c:13:7: warning: return type of 'main' is not 'int' [-Wmain]
- float main(){
-       ^~~~
-..\src\3-1.c: In function 'main':
-..\src\3-1.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-gcc -o 3-1.exe "src\\3-1.o" 
-Info: Nothing to build for 3-1
-00:30:13 **** Incremental Build of configuration Debug for project 3-1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-1.o" "..\\src\\3-1.c" 
-..\src\3-1.c:13:7: warning: return type of 'main' is not 'int' [-Wmain]
- float main(){
-       ^~~~
-..\src\3-1.c: In function 'main':
-..\src\3-1.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-gcc -o 3-1.exe "src\\3-1.o" 
-00:34:37 **** Rebuild of configuration Debug for project 3-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
-gcc -o 3-2.exe "src\\3-2.o" 
-00:34:48 **** Incremental Build of configuration Debug for project 3-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
-gcc -o 3-2.exe "src\\3-2.o" 
-Info: Nothing to build for 3-2
-00:37:32 **** Rebuild of configuration Debug for project 3-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-3.o" "..\\src\\3-3.c" 
-gcc -o 3-3.exe "src\\3-3.o" 
-00:37:42 **** Incremental Build of configuration Debug for project 3-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-3.o" "..\\src\\3-3.c" 
-..\src\3-3.c: In function 'entero':
-..\src\3-3.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-..\src\3-3.c: In function 'main':
-..\src\3-3.c:16:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
-     entero(num);
-     ^~~~~~~~~~~
-gcc -o 3-3.exe "src\\3-3.o" 
-00:40:49 **** Rebuild of configuration Debug for project 3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
-gcc -o 3-4.exe "src\\3-4.o" 
-00:40:57 **** Incremental Build of configuration Debug for project 3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
-..\src\3-4.c: In function 'entero':
-..\src\3-4.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-..\src\3-4.c: In function 'main':
-..\src\3-4.c:18:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
-     entero(num);
-     ^~~~~~~~~~~
-gcc -o 3-4.exe "src\\3-4.o" 
-Info: Nothing to build for 3-4
-Info: Nothing to build for 3-4
-00:42:40 **** Incremental Build of configuration Debug for project 3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
-..\src\3-4.c: In function 'entero':
-..\src\3-4.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-..\src\3-4.c: In function 'main':
-..\src\3-4.c:18:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
-     entero(num);
-     ^~~~~~~~~~~
-gcc -o 3-4.exe "src\\3-4.o" 
-00:44:32 **** Incremental Build of configuration Debug for project 3-0 Funciones ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-0 Funciones.o" "..\\src\\3-0 Funciones.c" 
-..\src\3-0 Funciones.c:50:10: warning: return type of 'main' is not 'int' [-Wmain]
-     void main (void){
-          ^~~~
-gcc -o "3-0 Funciones.exe" "src\\3-0 Funciones.o" 
-00:44:42 **** Incremental Build of configuration Debug for project 3-0 Funciones ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-0 Funciones.o" "..\\src\\3-0 Funciones.c" 
-..\src\3-0 Funciones.c:54:10: warning: return type of 'main' is not 'int' [-Wmain]
-     void main (void){
-          ^~~~
-gcc -o "3-0 Funciones.exe" "src\\3-0 Funciones.o" 
-Info: Nothing to build for 3-4
-Info: Nothing to build for 3-4
-14:37:35 **** Incremental Build of configuration Debug for project 3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
-..\src\3-4.c: In function 'entero':
-..\src\3-4.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-..\src\3-4.c:26:7: warning: 'num' is used uninitialized in this function [-Wuninitialized]
-     if(num <10 || num >20){
-       ^
-gcc -o 3-4.exe "src\\3-4.o" 
-Info: Nothing to build for 3-4
-Info: Nothing to build for 3-4
-14:48:00 **** Incremental Build of configuration Debug for project 3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
-..\src\3-4.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main(){
-      ^~~~
-gcc -o 3-4.exe "src\\3-4.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 3-4.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-14:48:17 **** Incremental Build of configuration Debug for project 3-4 ****
-Info: Internal Builder is used for build
-gcc -o 3-4.exe "src\\3-4.o" 
-14:48:45 **** Incremental Build of configuration Debug for project 3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
-..\src\3-4.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main(){
-      ^~~~
-gcc -o 3-4.exe "src\\3-4.o" 
-14:49:28 **** Incremental Build of configuration Debug for project 3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-4.o" "..\\src\\3-4.c" 
-..\src\3-4.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main(){
-      ^~~~
-gcc -o 3-4.exe "src\\3-4.o" 
-Info: Nothing to build for 3-4
-14:50:27 **** Rebuild of configuration Debug for project 3-5 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-5.o" "..\\src\\3-5.c" 
-gcc -o 3-5.exe "src\\3-5.o" 
-14:50:43 **** Incremental Build of configuration Debug for project 3-5 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-5.o" "..\\src\\3-5.c" 
-gcc -o 3-5.exe "src\\3-5.o" 
-Info: Nothing to build for 3-5
-Info: Nothing to build for 3-3
-15:14:19 **** Incremental Build of configuration Debug for project 3-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-3.o" "..\\src\\3-3.c" 
-..\src\3-3.c: In function 'main':
-..\src\3-3.c:16:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
-     entero(num);
-     ^~~~~~~~~~~
-gcc -o 3-3.exe "src\\3-3.o" 
-Info: Nothing to build for 3-3
-15:35:56 **** Building Selected Files of configuration Debug for project 3-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
-15:59:15 **** Incremental Build of configuration Debug for project 3-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\par.o" "..\\src\\par.c" 
-..\src\par.c:8:18: fatal error: stdlib: No such file or directory
- #include <stdlib>
-                  ^
-compilation terminated.
-15:59:27 **** Incremental Build of configuration Debug for project 3-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\par.o" "..\\src\\par.c" 
-..\src\par.c:8:18: fatal error: stdlib: No such file or directory
- #include <stdlib>
-                  ^
-compilation terminated.
-16:04:14 **** Incremental Build of configuration Debug for project 3-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\par.o" "..\\src\\par.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
-gcc -o 3-2.exe "src\\3-2.o" "src\\par.o" 
-19:24:16 **** Incremental Build of configuration Debug for project 3-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-2.o" "..\\src\\3-2.c" 
-gcc -o 3-2.exe "src\\3-2.o" "src\\par.o" 
-Info: Nothing to build for 3-2
-Info: Nothing to build for 3-2
-Info: Nothing to build for 3-2
-Info: Nothing to build for 3-5
-20:25:22 **** Incremental Build of configuration Debug for project 3-5 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-5.o" "..\\src\\3-5.c" 
-..\src\3-5.c: In function 'sumar2':
-..\src\3-5.c:48:11: warning: 'valA' is used uninitialized in this function [-Wuninitialized]
-      valC = valA + valB;
-      ~~~~~^~~~~~~~~~~~~
-..\src\3-5.c:48:11: warning: 'valB' is used uninitialized in this function [-Wuninitialized]
-..\src\3-5.c: In function 'main':
-..\src\3-5.c:33:9: warning: 'z' is used uninitialized in this function [-Wuninitialized]
-         printf("la suma es %d",z);
-         ^~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o 3-5.exe "src\\3-5.o" 
-20:26:40 **** Incremental Build of configuration Debug for project 3-5 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3-5.o" "..\\src\\3-5.c" 
-gcc -o 3-5.exe "src\\3-5.o" 
-Info: Nothing to build for 3-5
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+..\src\array.c: In function 'main':
+..\src\array.c:48:17: warning: unused variable 'pos' [-Wunused-variable]
+  int vec[CANT], pos, i;
+                 ^~~
+gcc -o array.exe "src\\array.o" 
+Info: Nothing to build for array
+Info: Nothing to build for array

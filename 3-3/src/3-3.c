@@ -8,16 +8,18 @@
 #include <stdio.h>
 
 //prototipo
-int entero(int);
+int entero();
 
 int main(){
     setbuf(stdout,NULL);
-    int num;
-    entero(num);
+    int guardar;
+    guardar = entero();
+    return 0;
 }
 
 //cuerpo de la función
-int entero(int a){
+int entero(){
+	int a;
     printf("Ingrese un entero :");
     scanf("%d",&a);
     printf("Retorno :%d",a);
