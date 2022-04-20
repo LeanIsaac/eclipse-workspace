@@ -1,28 +1,10 @@
-16:36:57 **** Incremental Build of configuration Debug for project array ****
+19:58:53 **** Rebuild of configuration Debug for project estructura ****
 Info: Internal Builder is used for build
-gcc -o array.exe "src\\array.o" 
-Info: Nothing to build for array
-Info: Nothing to build for array
-16:38:46 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\estructura.o" "..\\src\\estructura.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\alumnos.o" "..\\src\\alumnos.c" 
+gcc -o estructura.exe "src\\alumnos.o" "src\\estructura.o" 
+Info: Nothing to build for estructura
+20:01:31 **** Incremental Build of configuration Debug for project estructura ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-..\src\array.c: In function 'main':
-..\src\array.c:48:17: warning: unused variable 'pos' [-Wunused-variable]
-  int vec[CANT], pos, i;
-                 ^~~
-gcc -o array.exe "src\\array.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file array.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-16:38:50 **** Incremental Build of configuration Debug for project array ****
-Info: Internal Builder is used for build
-gcc -o array.exe "src\\array.o" 
-16:41:37 **** Incremental Build of configuration Debug for project array ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-..\src\array.c: In function 'main':
-..\src\array.c:48:17: warning: unused variable 'pos' [-Wunused-variable]
-  int vec[CANT], pos, i;
-                 ^~~
-gcc -o array.exe "src\\array.o" 
-Info: Nothing to build for array
-Info: Nothing to build for array
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\estructura.o" "..\\src\\estructura.c" 
+gcc -o estructura.exe "src\\alumnos.o" "src\\estructura.o" 

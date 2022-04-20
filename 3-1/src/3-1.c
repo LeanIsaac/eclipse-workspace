@@ -10,10 +10,12 @@
 //prototipo
 void flotante(float);
 
-float main(){
+int main(){
 	setbuf(stdout,NULL);
     float numero = 0.46;
     flotante(numero);   //llamo a la funcion
+
+    return 0;
 }
 
 //cuerpo de la funcion
