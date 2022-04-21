@@ -8,8 +8,8 @@
 #ifndef ALUMNOS_H_
 #define ALUMNOS_H_
 
-typedef struct
-{
+typedef struct{
+
 	char nombre [20];
 	int edad;
 	int nota;

@@ -1,10 +1,184 @@
-19:58:53 **** Rebuild of configuration Debug for project estructura ****
+23:33:17 **** Incremental Build of configuration Debug for project struct 20-04 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\estructura.o" "..\\src\\estructura.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\alumnos.o" "..\\src\\alumnos.c" 
-gcc -o estructura.exe "src\\alumnos.o" "src\\estructura.o" 
-Info: Nothing to build for estructura
-20:01:31 **** Incremental Build of configuration Debug for project estructura ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:108:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].codigo);
+                   ^
+..\src\struct 20-04.c:122:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioSalida);
+                   ^
+..\src\struct 20-04.c:126:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioLlegada);
+                   ^
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+..\src\struct 20-04.c: In function 'alta':
+..\src\struct 20-04.c:170:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d", ticket.codigo);
+          ^
+..\src\struct 20-04.c:181:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d", ticket.horarioSalida);
+          ^
+..\src\struct 20-04.c:184:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d", ticket.horarioLlegada);
+          ^
+gcc -o "struct 20-04.exe" "src\\struct 20-04.o" 
+Info: Nothing to build for struct 20-04
+23:35:10 **** Building Selected Files of configuration Debug for project struct 20-04 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\estructura.o" "..\\src\\estructura.c" 
-gcc -o estructura.exe "src\\alumnos.o" "src\\estructura.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:108:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].codigo);
+                   ^
+..\src\struct 20-04.c:122:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioSalida);
+                   ^
+..\src\struct 20-04.c:126:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioLlegada);
+                   ^
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+..\src\struct 20-04.c: In function 'alta':
+..\src\struct 20-04.c:170:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d", ticket.codigo);
+          ^
+..\src\struct 20-04.c:181:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d", ticket.horarioSalida);
+          ^
+..\src\struct 20-04.c:184:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d", ticket.horarioLlegada);
+          ^
+23:35:57 **** Building Selected Files of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:108:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].codigo);
+                   ^
+..\src\struct 20-04.c:122:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioSalida);
+                   ^
+..\src\struct 20-04.c:126:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioLlegada);
+                   ^
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+..\src\struct 20-04.c: In function 'alta':
+..\src\struct 20-04.c:170:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d", ticket.codigo);
+          ^
+..\src\struct 20-04.c:181:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d", ticket.horarioSalida);
+          ^
+..\src\struct 20-04.c:184:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d", ticket.horarioLlegada);
+          ^
+23:36:26 **** Incremental Build of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:108:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].codigo);
+                   ^
+..\src\struct 20-04.c:122:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioSalida);
+                   ^
+..\src\struct 20-04.c:126:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioLlegada);
+                   ^
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+..\src\struct 20-04.c: In function 'alta':
+..\src\struct 20-04.c:174:12: warning: format '%[^
+   ' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+  scanf("%[^\n]", &ticket.nombre);
+            ^
+..\src\struct 20-04.c:178:12: warning: format '%[^
+   ' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+  scanf("%[^\n]", &ticket.apellido);
+            ^
+gcc -o "struct 20-04.exe" "src\\struct 20-04.o" 
+23:37:07 **** Incremental Build of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:108:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].codigo);
+                   ^
+..\src\struct 20-04.c:122:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioSalida);
+                   ^
+..\src\struct 20-04.c:126:19: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+           scanf("%d", tickets[i].horarioLlegada);
+                   ^
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+gcc -o "struct 20-04.exe" "src\\struct 20-04.o" 
+Info: Nothing to build for struct 20-04
+Info: Nothing to build for struct 20-04
+23:38:40 **** Building Selected Files of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+23:39:30 **** Incremental Build of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+gcc -o "struct 20-04.exe" "src\\struct 20-04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file struct 20-04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:39:49 **** Incremental Build of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+gcc -o "struct 20-04.exe" "src\\struct 20-04.o" 
+23:42:29 **** Incremental Build of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+gcc -o "struct 20-04.exe" "src\\struct 20-04.o" 
+23:44:31 **** Incremental Build of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024], confirmar;
+       ^~~~~~~~
+gcc -o "struct 20-04.exe" "src\\struct 20-04.o" 
+Info: Nothing to build for struct 20-04
+23:48:32 **** Incremental Build of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024];
+       ^~~~~~~~
+gcc -o "struct 20-04.exe" "src\\struct 20-04.o" 
+Info: Nothing to build for struct 20-04
+23:58:07 **** Incremental Build of configuration Debug for project struct 20-04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct 20-04.o" "..\\src\\struct 20-04.c" 
+..\src\struct 20-04.c: In function 'main':
+..\src\struct 20-04.c:35:7: warning: unused variable 'opciones' [-Wunused-variable]
+  char opciones[1024];
+       ^~~~~~~~
+gcc -o "struct 20-04.exe" "src\\struct 20-04.o" 

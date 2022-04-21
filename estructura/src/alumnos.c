@@ -8,56 +8,38 @@
 #include <stdlib.h>
 #include "alumnos.h"
 
-
-
-void inicializarVector(eAlumno listaAlumnos [],int tamanio)
-{
+void inicializarVector(eAlumno listaAlumnos [],int tamanio){
 	int i;
 
-	for(i=0;i<tamanio;i++)
-	{
+	for(i=0;i<tamanio;i++){
 		listaAlumnos[i].estado = 0;
-
 	}
-
-
-
 }
 
 
-int buscarLibre (eAlumno listaAlumnos [],int tamanio)
-{
+int buscarLibre (eAlumno listaAlumnos [],int tamanio){
 
 	int index = -1;
 	int i;
 
-	for(i=0;i<tamanio;i++) //1
-	{
-		if(listaAlumnos[i].estado == 0)
-		{
+	for(i=0;i<tamanio;i++){//1
+		if(listaAlumnos[i].estado == 0){
 			index = i;//1
 			break;
 		}
-
 	}
-
-
-
 	return index;
-
 }
 
 
-void altaAlumnos(eAlumno listaAlumnos [],int tamanio)
-{
+void altaAlumnos(eAlumno listaAlumnos [],int tamanio){
+
 	int indice;
-
-
 
 	indice = buscarLibre(listaAlumnos,tamanio);
 
-	if(indice != -1)
-	{
+	if(indice != -1){
+
 		printf("ingrese su nombre:  ");
 		fflush(stdin);
 		scanf("%[^\n]",listaAlumnos[indice].nombre);
@@ -69,32 +51,24 @@ void altaAlumnos(eAlumno listaAlumnos [],int tamanio)
 		scanf("%d",&listaAlumnos[indice].edad);
 
 		listaAlumnos[indice].estado = 1;
-
-
 	}
-	else
-	{
+	else{
 		printf("lista llena!!!");
 	}
 
 
 }
 
-void imprimirAlumnos(eAlumno listaAlumnos [],int tamanio)
-{
+void imprimirAlumnos(eAlumno listaAlumnos [],int tamanio){
 	int i;
 
-	for(i=0;i<tamanio;i++)
-	{
-		if(listaAlumnos[i].estado==1)
-		{
+	for(i=0;i<tamanio;i++){
+		if(listaAlumnos[i].estado==1){
+
 		 printf("su nombre es: %s -- su edad es: %d -- su nota es: %d \n",listaAlumnos[i].nombre,listaAlumnos[i].edad,listaAlumnos[i].nota);
+
 		}
-
 	}
-
-
-
 }
 
 
