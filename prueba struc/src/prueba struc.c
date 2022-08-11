@@ -7,49 +7,51 @@
  Description : Hello World in C, Ansi-style
  ============================================================================
  */
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#define CANT 2
+#define CANT 3
 
 typedef struct{
-	char nombre[31];
+	char nombre[51];
 	int nota;
 }eAlumno;
 
 int main(void) {
 	setbuf(stdout,NULL);
-	eAlumno persona;
-	int i,j;
-	int aux;
+
+	eAlumno persona[CANT];
+	int i,j,aux;
+	char nombre[51];
 
 	for(i = 0; i<CANT ; i++){
 		printf("Ingrese nombre :");
 		fflush(stdin);
-		scanf("%[^\n]",persona.nombre);
+		scanf("%[^\n]",nombre);
+		strcpy(persona[i].nombre, nombre);
 
 		printf("Ingrese nota :");
-		scanf("%d",&persona.nota);
+		scanf("%d",&persona[i].nota);
 	}
 
-	for(i=0;i<CANT-1;i++){
-		for(j=0;j<CANT+1;j++){
+	for(i = 0; i<CANT-1; i++){
+		for(j = 0; j < CANT+1; j++){
+			if(persona[i].nota > persona[j].nota){
 
-			if(persona.nota[i] > persona.nota[j] ){
-				aux = persona.nota[i];
-				persona.nota[i] = persona.nota[j];//Swap
-		        persona.nota[j] = aux;
+				aux = persona[i].nota;
+				persona[i].nota = persona[j].nota;//Swap
+		        persona[j].nota = aux;
 			}
 		}
 
 		for(i = 0; i<CANT ; i++){
-			printf("Nombre %s, Nota %d",persona.nombre,persona.nota);
+			printf("\nNombre %s - Nota %d\n",persona[i].nombre, persona[i].nota);
 		}
 	}
 	return 0;
 }
 //%[^\n]
 
-*/
+
